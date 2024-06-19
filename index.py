@@ -12,3 +12,16 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_DOWN:  
+                down = True
+            if event.type == pygame.K_UP:   
+                up = True
+            if event.type == pygame.K_LEFT: 
+                left = True
+            if event.type == pygame.K_RIGHT:    
+                right = True
+            
+
+
+
